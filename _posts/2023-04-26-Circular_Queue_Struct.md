@@ -1,7 +1,7 @@
 ---
 title: "원형 큐"
 date: 2022-04-26 01:23:00 +0900
-categories: [Data struct, Algorithm]
+categories: [Algorithm]
 tags: [queue,stack,C]
 ---
 # 5.3. 원형 큐

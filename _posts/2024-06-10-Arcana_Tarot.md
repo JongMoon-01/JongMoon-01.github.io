@@ -1,8 +1,8 @@
 ---
 title: "아카나 카드 해석"
 date: 2024-06-10 02:23:00 +0900
-categories: [Tarot]
-tags: [Occult, Astrology, ]
+categories: [etc]
+tags: [Occult, Astrology, Tarot]
 ---
 # 1. 소개
  초-중학교 당시 오컬트에 푹 빠져 살았던 적이 있었다. 그때 당시 인터넷괴담, 음모론, 타로, 해몽, 영적현상 별에 별거를 다 찾아봤는데, 나이 먹고

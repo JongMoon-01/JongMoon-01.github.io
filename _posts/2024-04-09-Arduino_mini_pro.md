@@ -1,7 +1,7 @@
 ---
 title: "아두이노 및 센서 핀아웃 공부"
 date: 2024-03-28 02:23:00 +0900
-categories: [HardWare]
+categories: [Arduino]
 tags: [TeamProject, Arduino, Sensor, GYRO]
 ---
 # 1. 소개글

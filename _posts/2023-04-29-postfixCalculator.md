@@ -1,7 +1,7 @@
 ---
 title: "후위 표현식 계산기"
 date: 2022-04-29 01:23:00 +0900
-categories: [Data struct, Algorithm]
+categories: [Algorithm]
 tags: [stack,C]
 ---
 # 1. 후위표현식 계산기 소스 코드

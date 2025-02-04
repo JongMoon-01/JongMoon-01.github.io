@@ -1,7 +1,7 @@
 ---
 title: "연결 리스트"
 date: 2022-05-03 02:37:00 +0900
-categories: [Data struct, Algorithm]
+categories: [Algorithm]
 tags: [list,pointer,C]
 ---
 # 6.3 연결 리스트

@@ -1,7 +1,7 @@
 ---
 title: "Java Container 호스팅 서버 사용법"
 date: 2024-05-28 02:23:00 +0900
-categories: [Back-end]
+categories: [Spring]
 tags: [Back-end, Spring, Java, DB, ]
 ---
 # 1. 소개

@@ -1,7 +1,7 @@
 ---
 title: "여러가지 정렬 알고리즘"
 date: 2024-04-25 02:23:00 +0900
-categories: [Sort]
+categories: [Algorithm]
 tags: [CodingTest, Algorithm, Sort]
 ---
 # 1. 문제

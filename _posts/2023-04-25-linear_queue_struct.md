@@ -1,7 +1,7 @@
 ---
 title: "선형 큐"
 date: 2022-04-25 02:23:00 +0900
-categories: [Data struct, Algorithm]
+categories: [Algorithm]
 tags: [queue,stack,C]
 ---
 # 05. 큐(Queue)

@@ -1,7 +1,7 @@
 ---
 title: "R 기초문법 2"
 date: 2022-05-09 18:37:00 +0900
-categories: [R, Statistics, PreProcessing]
+categories: [R]
 tags: [DataFrame,matrix]
 ---
 # 1. Data review

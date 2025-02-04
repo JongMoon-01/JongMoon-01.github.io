@@ -1,8 +1,8 @@
 ---
 title: "타로 카드 셔플 홈페이지 구현"
 date: 2024-06-18 02:23:00 +0900
-categories: [Tarot]
-tags: [Occult, Astrology, ]
+categories: [Front]
+tags: [Occult, Astrology, Tarot]
 ---
 # 1. 소개
  타로 카드 덱이 없어서 코딩으로 금방 구현하지 않을까 싶어서 간단한 html 파일로 셔플과 카드 선택, 선택한 카드 상세 설명 살펴보기 기능을 구현해서 만들어 봤다.
