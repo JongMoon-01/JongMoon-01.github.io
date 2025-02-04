@@ -1,7 +1,7 @@
 ---
 title: "Dashboard홈페이지"
 date: 2024-07-09 02:23:00 +0900
-categories: [SpringBoot]
+categories: [Spring]
 tags: [Java, Spring, Back-end, Server, html]
 ---
 # 1. 소개
