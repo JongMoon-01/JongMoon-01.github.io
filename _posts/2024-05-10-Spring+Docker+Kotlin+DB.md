@@ -1,8 +1,8 @@
 ---
 title: "Spring(MySQL) + Docker + Kotlin"
 date: 2024-04-25 02:23:00 +0900
-categories: [Algorithm]
-tags: [CodingTest, Sort]
+categories: [Spring, Docker, Kotlin]
+tags: [Architecture, Java, C]
 ---
 # 1. 프로젝트를 위한 실습
  프로젝트에서는 Server가 HardWare로부터 raw-data를 수신 받아 이상치를 검증하고 DB에 저장하는 시나리오 1과 Server가 DB로부터 정상적인 데이터를 가져와 Front에 Broadcast하는 시나리오 2로 간단하게 이루어져있다. 중간에 Admin은 Server에 송신하는 HardWare의 상태를 점검할 수 있도록 만들 것이다. 왜냐면 만약에 고객이 컴플레인이 들어오면 해당 장치에 무슨 이상이 있는지 단계별로 알아야하기 때문이다.
