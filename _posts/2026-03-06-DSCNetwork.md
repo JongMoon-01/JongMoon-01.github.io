@@ -58,7 +58,7 @@ description: "YOLO 기반 차량 탐지와 OCR 번호판 인식을 활용한 ITS
     - CCTV 좌표(json) + cctv_id sequence를 polyline으로 draw
 
 <center>
-<img src="https://github.com/user-attachments/assets/044de268-ee34-4106-964d-0579d88cccf0" width="720" height=""/>
+<img src="/assets/img/DSCNetwork_1.png" width="720" height=""/>
 <p><b>[그림1]. Polyline draw하기 위한 차량 이동 경로 집합 </b></p>
 </center>
 
@@ -116,7 +116,7 @@ description: "YOLO 기반 차량 탐지와 OCR 번호판 인식을 활용한 ITS
 렌더링은 Blender로 진행했기 때문에 렌더링 시 부하를 막기 위해 Parallax Mapping을 적용해 중복 오브젝트 최적화를 진행해주었다.
 
 <center>
-<img src="https://github.com/user-attachments/assets/f339fb58-358e-49dd-a61f-156e59346c45" width="720" height=""/>
+<img src="/assets/img/DSCNetwork_2.png" width="720" height=""/>
 <p><b>[그림2]. 도시 TopView </b></p>
 </center>
 
@@ -124,15 +124,23 @@ description: "YOLO 기반 차량 탐지와 OCR 번호판 인식을 활용한 ITS
 2020년에 Blender 처음 배울때 BlenderBop이라는 유튜브 채널에서 BP를 이용해서 복잡한 모델링을 복사기처럼 따라 만드는 모델링 방법이 존재했는데 이를 사용해서 모델링을 진행했다.
 
 <center>
-<img src="https://github.com/user-attachments/assets/73d710cf-af85-4e1f-9c3f-5072effd8879" width="720" height=""/>
+<img src="/assets/img/DSCNetwork_3.png" width="720" height=""/>
 <p><b>[그림3]. BluePrint 모델링 방법 </b></p>
 </center>
 
 또한 차량의 움직임도 어느정도 구현하고 싶어서 Blender에서 지원하는 Add-on중 하나인 RigCar를 사용해 차량의 Bumping, Wheel motion, Braking 등을 구현했다.
 
 <center>
-<img src="https://github.com/user-attachments/assets/e85450ff-14aa-4184-92f2-4ff82c3223f3" width="720" height=""/>
+<img src="/assets/img/DSCNetwork_4.png" width="720" height=""/>
 <p><b>[그림4]. RigCar 활용 </b></p>
+</center>
+
+## 7.2 CCTV 설정
+카메라 오브젝트를 이용해서 CCTV를 구현하였으며 차량 시내에 부착된 CCTV의 프레임(15~32FPS) 해상도(640x480 or 1920 x 1080)임을 감안하여 하이퍼 파라미터를 사용하여 렌더링시 현실에 가장 가까운 CCTV 환경에 맞게 구현하였습니다.
+
+<center>
+<img src="/assets/img/DSCNetwork_5.png" width="720" height=""/>
+<p><b>[그림5]. Camera Object Parameter 설정 </b></p>
 </center>
 
 # 8. Web Dashboard(React + flask)
@@ -144,6 +152,11 @@ description: "YOLO 기반 차량 탐지와 OCR 번호판 인식을 활용한 ITS
 - 번호판 입력 → (시뮬레이션에서는 setTimeout으로) 검색 완료 → 경로 polyline 표시
 
 - 로그 창에 이벤트 출력
+
+<center>
+<img src="/assets/img/DSCNetwork_6.png" width="720" height=""/>
+<p><b>[그림6]. FrontEnd UI </b></p>
+</center>
 
 ## 8.1 Flask API
 
