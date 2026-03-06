@@ -44,8 +44,32 @@ description: "뉴럴 네트워크, 복소수 신경망"
 MNIST 2D 이미지(float같은 실수)를 복소수 영역의 주파수 이미지로 변환하고 해당 주파수이미지는 수학적으로 정현파로 표현될 수 있으니 PSK 방식으로 매핑하는 방법을 택했다.
 모델 학습은 MNIST를 주파수 이미지로 변환시켜서 학습하고 Test는 MNIST 이미지를 기존 RGB이미지로 넣어서 잘 분류하는지 실험했다.
 
-해당 결과는 
-다음과 같다 아웃풋 그래프 1 ~ 4
+해당 결과는  다음과 같다.
+
+<center>
+<img src="/assets/img/ComplexNet_0.png" width="720" height=""/>
+<p><b>[그림1]. PSK 영역내 신호 집합 시각화 </b></p>
+</center>
+
+<center>
+<img src="/assets/img/ComplexNet_1.png" width="720" height=""/>
+<p><b>[그림2]. Loss over Epoch </b></p>
+</center>
+
+<center>
+<img src="/assets/img/ComplexNet_2.png" width="720" height=""/>
+<p><b>[그림3]. PSK Anchor Loss over Epoch </b></p>
+</center>
+
+<center>
+<img src="/assets/img/ComplexNet_3.png" width="720" height=""/>
+<p><b>[그림4]. Spatial-Frequency Consistency Loss over Epoch </b></p>
+</center>
+
+<center>
+<img src="/assets/img/ComplexNet_4.png" width="720" height=""/>
+<p><b>[그림5]. Test Accuracy </b></p>
+</center>
 
 # 5. 시도해볼만한 것
 우선 정확도가 69%쯤 나오니 이를 개선하기 위한 여러 기법을 넣을 수 있을 거 같다. 
