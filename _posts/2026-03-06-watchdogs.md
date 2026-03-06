@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WatchDogs : IoT 기반 반려동물 생체 모니터링 시스템 설계"
-date: 2025-06-13 14:00:00 +0900
+date: 2025-12-13 14:00:00 +0900
 categories: [IoT, AI, Embedded]
 tags: [IoT, LSTM, MPU6050, PulseSensor, PetTech, Arduino]
 description: "MPU6050 + Flex Sensor + Pulse Sensor를 활용한 반려동물 웨어러블 생체 데이터 수집 및 분석 시스템"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AWS Deep Racer Car 경진대회"
-date: 2025-10-27 10:00:00 +0900
+date: 2025-11-27 10:00:00 +0900
 categories: [AWS]
 tags: [강화학습, AWS, 자율주행]
 description: "자율주행, 강화학습"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CCTV · 블랙박스 공조 실시간 차량 추적 시스템 시뮬레이션"
-date: 2025-06-13 10:00:00 +0900
+date: 2025-10-13 10:00:00 +0900
 categories: [ITS, ComputerVision]
 tags: [ITS, YOLO, OCR, LPR, SmartCity, Blender, React, Flask]
 description: "YOLO 기반 차량 탐지와 OCR 번호판 인식을 활용한 ITS 시뮬레이션 프로젝트"

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "복소수 신경망"
+title: "이미지 복소수 형태로 만들고 PSK로 해석 해보기"
 date: 2025-10-27 10:00:00 +0900
 categories: [Complex]
 tags: [Complex, Math, NN]
