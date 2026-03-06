@@ -147,6 +147,7 @@ description: "YOLO 기반 차량 탐지와 OCR 번호판 인식을 활용한 ITS
 
 ## 8.1 Flask API
 
+{% raw %}
 ```python
 from flask import Flask, jsonify
 from flask_cors import CORS
@@ -377,6 +378,7 @@ rounded font-mono text-sm overflow-y-auto h-32">
 ); 
 } 
 ```
+{% endraw %}
 
 # 9. 프로젝트를 진행하면서 느낀 점
 해당 프로젝트를 진행하고 그 다음해에 Aivle에서 Tableau나 istio 같은 배포툴을 알게 되어서 이 프로젝트를 만들때 해당 기술들을 적용했으면 백엔드 구축이 더 빨라지고 대쉬보드의 퀼리티가 많이 향샹 됐을거 같다는 생각이 들었다.
