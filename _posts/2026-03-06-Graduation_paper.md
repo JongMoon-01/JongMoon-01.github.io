@@ -263,7 +263,7 @@ tokenizer.save_pretrained("./results")
 ```
 
 <center>
-<img src="(/assets/img/GraduationPaper_1" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_1.png" width="720" height=""/>
 <p><b>[그림1]. KLUE-BERT 학습 </b></p>
 </center>
 
@@ -281,17 +281,17 @@ tokenizer.save_pretrained("./results")
   - 여러 카테고리를 포함한 분포를 지님 시간이 지나도 어느정도 노출이 많이된 카테고리의 빈도가 증가함을 확인.
 
 <center>
-<img src="/assets/img/GraduationPaper_2" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_2.png" width="720" height=""/>
 <p><b>[그림2]. 실험 계정1 시청 주기 1일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_3" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_3.png" width="720" height=""/>
 <p><b>[그림3]. 실험 계정1 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_4" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_4.png" width="720" height=""/>
 <p><b>[그림4]. 실험 계정1 시청 주기 3일차 주제분포 결과 </b></p>
 </center>
 
@@ -299,17 +299,17 @@ tokenizer.save_pretrained("./results")
   - 시간이 지날수록 정치 카테고리만 급증하는 모습을 확인 가능
 
 <center>
-<img src="/assets/img/GraduationPaper_5" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_5.png" width="720" height=""/>
 <p><b>[그림5]. 실험 계정2 시청 주기 1일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_6" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_6.png" width="720" height=""/>
 <p><b>[그림6]. 실험 계정2 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_7" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_7.png" width="720" height=""/>
 <p><b>[그림7]. 실험 계정2 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
@@ -328,17 +328,17 @@ tokenizer.save_pretrained("./results")
   - 문화 주제 WordCloud에서는 실험 계정 2와 달리 영화 관련 키워드가 다수 등장하며 콘텐츠 주제가 비교적 다양하게 분포하였다.
 
 <center>
-<img src="(/assets/img/GraduationPaper_8" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_8.png" width="720" height=""/>
 <p><b>[그림8]. 실험 계정2 시청 주기 1일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_9" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_9.png" width="720" height=""/>
 <p><b>[그림9]. 실험 계정2 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_10" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_10.png" width="720" height=""/>
 <p><b>[그림10]. 실험 계정2 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
@@ -349,17 +349,17 @@ tokenizer.save_pretrained("./results")
   - 이는 추천 알고리즘이 정치 콘텐츠 시청 패턴을 학습하면서 다른 주제 영역에서도 정치적 프레이밍을 강화하는 방향으로 작동했음을 보여준다.
 
 <center>
-<img src="/assets/img/GraduationPaper_11" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_11.png" width="720" height=""/>
 <p><b>[그림11]. 실험 계정2 시청 주기 1일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_12" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_12.png" width="720" height=""/>
 <p><b>[그림12]. 실험 계정2 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
 <center>
-<img src="/assets/img/GraduationPaper_13" width="720" height=""/>
+<img src="/assets/img/GraduationPaper_13.png" width="720" height=""/>
 <p><b>[그림13]. 실험 계정2 시청 주기 2일차 주제분포 결과 </b></p>
 </center>
 
